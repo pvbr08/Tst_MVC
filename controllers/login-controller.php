@@ -1,8 +1,18 @@
 <?php
-
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/**
+ * LoginController - Controller de exemplo
+ *
+ * @package TutsupMVC
+ * @since 0.1
  */
+class LoginController extends MainController{
 
+    public function index() {
+        $this->title = 'Login';
+        $parametros = ( func_num_args() >= 1 ) ? func_get_arg(0) : array();
+        require ABSPATH . '/views/_includes/header.php';
+        require ABSPATH . '/views/_includes/menu.php';
+        require ABSPATH . '/views/login/login-view.php';
+        require ABSPATH . '/views/_includes/footer.php';
+    } // index
+} // class LoginController
