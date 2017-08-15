@@ -1,8 +1,11 @@
-<?php
+<?php if ( ! defined('ABSPATH')) exit; ?>
 
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
+<div class="wrap">
+
+	<p>Olá, <br>
+	Se você está visualizando esta página, seu sistema PHP com padrão MVC está funcionando.</p>
+
+	<p>Não deixe de visitar nosso site para dicas <a href="http://www.tutsup.com">tutsup.com</a>.
+
+</div> <!-- .wrap -->
